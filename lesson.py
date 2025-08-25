@@ -3,6 +3,7 @@ def main():
 if __name__ == "__main__":
     main()
 
+<<<<<<< HEAD
 class Student:
     def __init__(self, age):
         self.__age = age
@@ -22,3 +23,13 @@ s.age = 20
 print(s.age)
 
 s.age = 5
+
+class Doniko:
+    def __init__(self, name):
+        self.name = name
+
+    def Get_info(self):
+        return self.name
+D = Doniko('Daniel')
+print(D.Get_info())
+
